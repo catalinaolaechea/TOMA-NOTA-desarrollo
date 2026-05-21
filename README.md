@@ -17,3 +17,11 @@ traer cambios de una rama existente:
 git checkout entrega-1
 git pull origin entrega-1
 ```
+cambiarse de rama:
+```bash
+git checkout rama
+```
+si hay cambios que queres olvidar al cambiar de rama.
+```bash
+git checkout -- .
+```
